@@ -1,0 +1,51 @@
+# 四类自然原声与零纯音合成夜雨；offset_db 为相对节目主干的压低量。
+room_quiet:
+  xfade: 2.0
+  offset_db: 22.0
+  layers:
+    - {material: leaves_rustle, gain_db: 0.0}
+
+rain_light:
+  xfade: 4.0
+  offset_db: 15.0
+  layers:
+    - {material: rain_soft, gain_db: 0.0}
+
+rain_heavy:
+  xfade: 4.0
+  offset_db: 14.0
+  layers:
+    - {material: rain_hard, gain_db: 0.0}
+
+library:
+  xfade: 3.0
+  offset_db: 17.0
+  layers:
+    - {material: campfire_ember, gain_db: -3.0}
+    - {material: rain_soft, gain_db: -6.0}
+
+cafe:
+  xfade: 3.0
+  offset_db: 19.0
+  layers:
+    - {material: campfire_ember, gain_db: -2.0}
+    - {material: room_tone, gain_db: -6.0}
+
+night_outdoor:
+  xfade: 4.0
+  offset_db: 18.0
+  layers:
+    - {material: leaves_rustle, gain_db: 0.0}
+    - {material: campfire_ember, gain_db: -6.0}
+
+campfire:
+  xfade: 3.0
+  offset_db: 16.0
+  layers:
+    - {material: campfire_ember, gain_db: 0.0}
+
+lake_waves:
+  xfade: 4.0
+  offset_db: 16.0
+  layers:
+    - {material: calm_waves, gain_db: 0.0}

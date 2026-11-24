@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# 运行产物：可整目录删除后重建
+build/
+cache/
+output/
+
+# 凭据：只保留说明
+.env
+.env.*
+!.env.example
+secrets/*
+!secrets/README.md
+
+# 素材：保留说明与内置 CC0 环境床音（触发音、原始素材与本地 index.yaml 不入库）
+materials/*
+!materials/README.md
+!materials/bed/
+materials/bed/*
+!materials/bed/*.wav
+
+# 外部运行时临时词典缓存
+TEMP/

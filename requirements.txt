@@ -1,0 +1,7 @@
+numpy
+soundfile
+pyyaml
+scipy
+av
+onnxruntime
+gradio
